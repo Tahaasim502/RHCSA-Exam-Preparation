@@ -13,4 +13,4 @@ It contains:
 - `Quiz-Questions/` : All RHCSA practice questions
 - `Practical-Commands/` : Commands with explanations for users, groups, sudo
 - `Notes/` : Key theory notes and tips for exam revision
-- `Examples/` : Sample outputs, /etc/passwd & /etc/group examples
+
