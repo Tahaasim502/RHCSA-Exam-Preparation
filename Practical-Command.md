@@ -16,7 +16,7 @@ sudo usermod -aG groupname username
 sudo gpasswd -d username groupname
 sudo deluser username groupname
 
-**remember when using root you dont need to use sudo**
+remember when using root you dont need to use sudo
 ```
 ---
 
