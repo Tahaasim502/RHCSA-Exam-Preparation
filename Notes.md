@@ -193,3 +193,21 @@ sudo usermod -aG sudo username
 | Remove user from group | `sudo gpasswd -d username groupname` / `sudo deluser username groupname` |
 | Create a group | `sudo groupadd groupname` |
 | Check user groups | `groups username` |
+
+---
+
+## File Permissions
+
+```
+-rw-------
+```
+
+<img width="483" height="193" alt="image" src="https://github.com/user-attachments/assets/f496c558-9376-4a2d-8b05-9cb2c6b06764" />
+
+| Symbol | Meaning |
+| `-` | Regular file | Ordinary file |
+| `r` | Read | Can view file contents or list directory contents |
+| `w` | Write | Can modify file or create/delete files in a directory |
+| `x` | Execute | Can run a file as a program or enter a directory |
+| `-` | None | Permission is denied |
+
