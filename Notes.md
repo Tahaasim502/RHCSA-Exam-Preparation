@@ -219,9 +219,9 @@ sudo usermod -aG sudo username
 | setgid | `s` | File executes with **group’s privileges** or directory inherits group |
 | sticky bit | `t` | Only owner can **delete/rename files** in directory |
 
-### Commands:
+----
 
-# Linux File Example: Understanding `ls -l` Output
+## Linux File Example: Understanding `ls -l` Output
 
 ### 1️⃣ List Files
 ```bash
