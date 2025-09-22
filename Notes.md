@@ -220,40 +220,52 @@ sudo usermod -aG sudo username
 | sticky bit | `t` | Only owner can **delete/rename files** in directory |
 
 ### Commands:
+
+# Linux File Example: Understanding `ls -l` Output
+
+### 1️⃣ List Files
 ```bash
-# Check the list of files
 ls -l
-
-# Create a new file
-touch file1
-
--rw-rw-r-- 1 root root 0 Sep 22 09:26 file1
-
-1. -rw-rw-r-- → file type + permissions
-
-- → regular file
-
-rw- → owner (root) can read and write, cannot execute
-
-rw- → group (root) can read and write, cannot execute
-
-r-- → others can read only
-
-1 → number of hard links
-
-This file has 1 link pointing to it.
-
-root → owner of the file
-
-root → group of the file
-
-0 → size of the file in bytes
-
-Here, it’s empty (0 bytes)
-
-Sep 22 09:26 → last modification date and time
-
-file1 → name of the file
-
 ```
+
+2️⃣ Create a New File
+```bash
+touch file1
+```
+
+Listing after creation:
+```
+-rw-rw-r-- 1 root root 0 Sep 22 09:26 file1
+```
+
+### 3️⃣ Breaking Down the Output
+
+**Permissions and Type:** `-rw-rw-r--`
+
+- → **regular file**
+- `rw-` → **owner** (`root`) can read & write
+- `rw-` → **group** (`root`) can read & write
+- `r--` → **others** can read only
+
+**Hard Links:** `1`
+
+- Number of links pointing to this file
+
+**Owner and Group:** `root root`
+
+- First `root` → file owner
+- Second `root` → group owner
+
+**Size:** `0`
+
+- File size in **bytes** (empty file)
+
+**Last Modified:** `Sep 22 09:26`
+
+- Date and time of last modification
+
+**Filename:** `file1`
+
+---
+
 
