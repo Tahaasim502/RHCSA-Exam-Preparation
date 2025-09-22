@@ -212,3 +212,20 @@ sudo usermod -aG sudo username
 | `x` | Execute | Can run a file as a program or enter a directory |
 | `-` | None | Permission is denied |
 
+| Permission | Symbol | Purpose |
+| --- | --- | --- |
+| `d` | Directory | Folder|
+| setuid | `s` | File executes with **owner’s privileges** |
+| setgid | `s` | File executes with **group’s privileges** or directory inherits group |
+| sticky bit | `t` | Only owner can **delete/rename files** in directory |
+
+### Commands:
+```bash
+# Check the list of files
+ls -l
+
+# Create a new file
+touch file1
+
+```
+
