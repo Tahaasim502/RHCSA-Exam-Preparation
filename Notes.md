@@ -268,4 +268,37 @@ Listing after creation:
 
 ---
 
+## Linux Command Line and Shells
 
+### 1️⃣ What is a Shell?
+
+The **command line** is provided by a program called a **shell** (or interpreter).  
+
+- It **interprets commands** typed by the user.  
+- Different shells may behave slightly differently.  
+- The **default shell in RHEL** and most Linux distributions is **`bash`** (Bourne Again Shell).  
+
+---
+
+### 2️⃣ Check Your Current Shell
+```bash
+echo $SHELL
+```
+**Filename:** `file1`
+
+### 3️⃣ Key Points
+
+- The shell allows you to **run commands, scripts, and programs**.
+- Environment variables like `$USER`, `$HOME`, and `$SHELL` **customize your session**.
+- Bash is the **most widely used shell**, providing features like:
+    - Command history
+    - Auto-completion (Tab key)
+    - Scripting support
+
+### 4️⃣ Quick Reference
+
+| Variable | Description |
+| --- | --- |
+| `$SHELL` | Shows the current shell |
+| `$USER` | Shows the logged-in user |
+| `$HOME` | Shows the user's home directory |
