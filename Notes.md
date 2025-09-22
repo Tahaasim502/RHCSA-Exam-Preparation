@@ -227,5 +227,33 @@ ls -l
 # Create a new file
 touch file1
 
+-rw-rw-r-- 1 root root 0 Sep 22 09:26 file1
+
+1. -rw-rw-r-- → file type + permissions
+
+- → regular file
+
+rw- → owner (root) can read and write, cannot execute
+
+rw- → group (root) can read and write, cannot execute
+
+r-- → others can read only
+
+1 → number of hard links
+
+This file has 1 link pointing to it.
+
+root → owner of the file
+
+root → group of the file
+
+0 → size of the file in bytes
+
+Here, it’s empty (0 bytes)
+
+Sep 22 09:26 → last modification date and time
+
+file1 → name of the file
+
 ```
 
